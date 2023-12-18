@@ -16,35 +16,35 @@ public class Calculator {
     }
 
         //Data Input Methods
-    public int getA() {
+    public int second_getA() {
         return first_number;
     }
-    public String getB() {
+    public String second_getB() {
         return op;
     }
-    public int getC() {
+    public int second_getC() {
         return second_number;
     }
 
     //Arithmetic Operation Methods
-public int sum() {
+public int second_sum() {
         return result = first_number + second_number;
 }
-public int sub() {
+public int second_sub() {
         return result = first_number - second_number;
 }
-public int mul() {
+public int second_mul() {
         return result = first_number * second_number;
 }
-public int div() {
+public int second_div() {
         return result = first_number / second_number;
 }
 
 //Increment, Decrement Methods
-    public int increment() {
+    public int second_increment() {
         return this.result+=1;
     }
-    public int decrement() {
+    public int second_decrement() {
         return this.result-=1;
     }
 }
